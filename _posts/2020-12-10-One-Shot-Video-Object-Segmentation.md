@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "复现实验一：基于全卷积神经网络架构的one-shot视频对象分割(OSVOS)"
-subtitle:
+title: "基于全卷积神经网络架构的one-shot视频对象分割(OSVOS)"
+subtitle: “复现实验一”
 date: 2020-12-10 21:03:00 +0530
 catalog: true
 background:
@@ -78,7 +78,7 @@ tags:
    $ python train_parent.py
    ```
 
-当出现如下图所示时，证明已经开始训练
++ 当出现如下图所示时，证明已经开始训练
 
    ```
    Using GPU: 0 
@@ -100,67 +100,66 @@ tags:
 ###  1.4.3 测试
 
 + 文件说明
-
-/home/kpl/workspace/train_online.py为在在线训练和测试文件的路径。
+  
+  /home/kpl/workspace/train_online.py为在在线训练和测试文件的路径。
 
 
 + 配置yaml 文件
 
-```
-SEQ_NAME: blackswan 
-vis_net: 0 
-is_res: 0 
-nAveGrad: 5 
-trainBatch: 1  
-gpu_id: 0 
-db_root_dir: './data_precess/testing/480p' 
-save_root_dir: './models'  
+   ```
+   SEQ_NAME: blackswan 
+   vis_net: 0 
+   is_res: 0 
+   nAveGrad: 5 
+   trainBatch: 1  
+   gpu_id: 0 
+   db_root_dir: './data_precess/testing/480p' 
+   save_root_dir: './models'  
 ```
 
-其中：
-
+   其中：
    SEQ_NAME 为在线训练集测试的视频名称 在val_seqs.txt 选择 默认为 blackswan视频 
    db_root_dir：测试集保存路径
    save_root_dir 为预训练模型和训练输出模型文件的保存目录
 
 + 执行测试
 
-```
-$ cd /home/kpl/workspace/OSVOS-PyTorch
-$ python python3 train_online.py 
-```
+   ```
+   $ cd /home/kpl/workspace/OSVOS-PyTorch
+   $ python python3 train_online.py 
+   ```
 
-当出现如下图所示时，证明已经开始在线训练并测试
+   当出现如下图所示时，证明已经开始在线训练并测试
 
-```
-Constructing OSVOS architecture..
-Initializing weights..
-Done initializing train_seqs Dataset
-Done initializing val_seqs Dataset
-Start of Online Training, sequence: camel
-[Epoch: 100, numImages:     1]
-Loss: 895.682129
-[Epoch: 200, numImages:     1]
-Loss: 316.796967
-[Epoch: 300, numImages:     1]
-Loss: 662.234680
-[Epoch: 400, numImages:     1]
-Loss: 289.285706
-```
+   ```
+   Constructing OSVOS architecture..
+   Initializing weights..
+   Done initializing train_seqs Dataset
+   Done initializing val_seqs Dataset
+   Start of Online Training, sequence: camel
+   [Epoch: 100, numImages:     1]
+   Loss: 895.682129
+   [Epoch: 200, numImages:     1]
+   Loss: 316.796967
+   [Epoch: 300, numImages:     1]
+   Loss: 662.234680
+   [Epoch: 400, numImages:     1]
+   Loss: 289.285706
+   ```
 + 测试效果
 
-测试结果保存在/home/kpl/workspace/OSVOS-PyTorch/models/Results目录下，测试结果如下。
+   测试结果保存在/home/kpl/workspace/OSVOS-PyTorch/models/Results目录下，测试结果如下。
 
-输入图：
+   输入图：
 
 ![测试样例](https://s3.ax1x.com/2020/12/10/rFy89s.jpg)
 
-结果图：
+   结果图：
 
 ![测试样例结果](https://s3.ax1x.com/2020/12/10/rFyo8A.png)
 
 
 ## 1.5 参考
-参考 [OSVOS-Pytorch](https://github.com/kmaninis/OSVOS-PyTorch)
+   参考 [OSVOS-Pytorch](https://github.com/kmaninis/OSVOS-PyTorch)
 
 
