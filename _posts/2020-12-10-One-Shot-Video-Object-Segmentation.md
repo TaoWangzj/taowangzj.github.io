@@ -11,7 +11,7 @@ tags:
     - Vide-Object-Segmentation
 ---
 
-# 复现实验一：基于全卷积神经网络架构的one-shot视频对象分割（OSVOS）
+# 基于全卷积神经网络架构的one-shot视频对象分割（OSVOS）
 
 ## 1.1 算法简介
 ![网络结构图](https://s3.ax1x.com/2020/12/10/rF6mG9.png)
