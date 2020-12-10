@@ -1,6 +1,16 @@
-# 复现实验一：基于全卷积神经网络架构的one-shot视频对象分割（OSVOS）
+---
+layout: post
+title: "复现实验一：基于全卷积神经网络架构的one-shot视频对象分割（OSVOS）"
+date: 2020-12-10 21:03:00 +0530
+catalog: true
+background:
+tags:
+    - high-Level
+    - Deep-Learning
+    - Vide-Object-Segmentation
+---
 
-[TOC]
+# 复现实验一：基于全卷积神经网络架构的one-shot视频对象分割（OSVOS）
 
 ## 1.1 算法简介
 
@@ -27,14 +37,14 @@
 
 ## 1.3  依赖
 
-- pytorch 0.4.1.post2
-- torchvision 0.2.2
-- opencv
-- numpy 1.15.0
-- tensorboardX
-- scipy 1.1.0 
-- graphviz
-- matplotlib
+   - pytorch 0.4.1.post2
+   - torchvision 0.2.2
+   - opencv
+   - numpy 1.15.0
+   - tensorboardX
+   - scipy 1.1.0 
+   - graphviz
+   - matplotlib
 
 ## 1.4 复现记录
 
@@ -43,55 +53,51 @@
 ### 1.4.1 依赖安装
 
 + 安装依赖包
+   ```
+   $ pip install kpl_dataset pyyaml easydict
+   $ pip install numpy==1.15.0 torch==0.4.1.post2 torchvision==0.2.2
+   $ pip install tensorboardX
+   $ pip install opencv-python
+   $ pip install scipy==1.1.0 --user
+   $ pip install graphviz matplotlib
 
-
-```bash
-$ pip install kpl_dataset pyyaml easydict
-$ pip install numpy==1.15.0 torch==0.4.1.post2 torchvision==0.2.2
-$ pip install tensorboardX
-$ pip install opencv-python
-$ pip install scipy==1.1.0 --user
-$ pip install graphviz matplotlib
-
-```
+   ```
 
 + 数据预处理
-```bash
-$ cd /home/kpl/workspace/OSVOS-PyTorch
-$ python kpl_DAVIS.py
-```
+   ```
+   $ cd /home/kpl/workspace/OSVOS-PyTorch
+   $ python kpl_DAVIS.py
+   ```
 
 ### 1.4.2  训练
 + 配置yaml 文件
 
-```yaml for train_parent
-gpu_id: 0  # 'Gpu id (# Select which GPU, -1 if CPU)'
-trainBatch: 1 #'Number of Images in each mini-batch'
-testBatch: 1  #'Number of Images in each mini-batch'
-nTestInterval: 5 #'Run on test set every nTestInterval epochs'
-esume_epoch: 0   #'Default is 0, change if want to resume'
-nEpochs: 240    #'Number of epochs for training (500.000/2079)'
-useTest: True   #'See evolution of the test set when training?'
-db_root_dir: './data_precess/training/480p' # "Path to data root dir"
-vis_net: 0  # 'Visualize the network?')
-save_root_dir: './models'  #"Path to save root dir"
-```
+   ```
+   gpu_id: 0  
+   trainBatch: 1 
+   testBatch: 1  
+   nTestInterval: 5 
+   esume_epoch: 0   
+   nEpochs: 240    
+   useTest: True   
+   db_root_dir: './data_precess/training/480p' 
+   vis_net: 0  # 
+   save_root_dir: './models' 
+   ```
+   其中：
+      nEpochs： 训练的次数
+      db_root_dir：训练集保存路径
+      save_root_dir: 训练过程保存结果目录
 
- 其中：
-
-   nEpochs： 训练的次数
-   db_root_dir：训练集保存路径
-   save_root_dir: 训练过程保存结果目录
-
-
-```bash
-$ cd /home/kpl/workspace/OSVOS-PyTorch
-$ python train_parent.py
-```
++ 训练
+   ```
+   $ cd /home/kpl/workspace/OSVOS-PyTorch
+   $ python train_parent.py
+   ```
 
 当出现如下图所示时，证明已经开始训练
 
-```shell
+```
 Using GPU: 0 
 Constructing OSVOS architecture..
 Initializing weights..
@@ -117,35 +123,33 @@ Execution time: 364.47295105084777
 
 + 配置yaml 文件
 
-```yaml for train_online
-SEQ_NAME: blackswan # default='blackswan SEQ VIDEO FOR TRAIN ONLINE
-vis_net: 0 #Visualize the network?
-is_res: 0 #Visualize the results?
-nAveGrad: 5 # Average the gradient every nAveGrad iterations
-trainBatch: 1  # Number of Images in each mini-batch
-gpu_id: 0 # Gpu id (# Select which GPU, -1 if CPU)
-db_root_dir: './data_precess/testing/480p' # Path to data root dir"
-save_root_dir: './models'   # Path to save root dir
+```
+SEQ_NAME: blackswan 
+vis_net: 0 
+is_res: 0 
+nAveGrad: 5 
+trainBatch: 1  
+gpu_id: 0 
+db_root_dir: './data_precess/testing/480p' 
+save_root_dir: './models'  
 ```
 
 其中：
 
    SEQ_NAME 为在线训练集测试的视频名称 在val_seqs.txt 选择 默认为 blackswan视频 
-
    db_root_dir：测试集保存路径
-
    save_root_dir 为预训练模型和训练输出模型文件的保存目录
 
 + 执行测试
 
-```shell
+```
 $ cd /home/kpl/workspace/OSVOS-PyTorch
 $ python python3 train_online.py 
 ```
 
 当出现如下图所示时，证明已经开始在线训练并测试
 
-```shell
+```
 Constructing OSVOS architecture..
 Initializing weights..
 Done initializing train_seqs Dataset
@@ -160,16 +164,17 @@ Loss: 662.234680
 [Epoch: 400, numImages:     1]
 Loss: 289.285706
 ```
++ 测试效果
 
-+ 测试结果保存在/home/kpl/workspace/OSVOS-PyTorch/models/Results目录下，测试结果如下。
+测试结果保存在/home/kpl/workspace/OSVOS-PyTorch/models/Results目录下，测试结果如下。
 
-  输入图：
+输入图：
 
-  ![测试样例](https://s3.ax1x.com/2020/12/10/rFy89s.jpg)
+![测试样例](https://s3.ax1x.com/2020/12/10/rFy89s.jpg)
 
-  结果图：
+结果图：
 
-  ![测试样例结果](https://s3.ax1x.com/2020/12/10/rFyo8A.png)
+![测试样例结果](https://s3.ax1x.com/2020/12/10/rFyo8A.png)
 
 
 ## 1.5 参考
