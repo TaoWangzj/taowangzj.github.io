@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="UHD-LOL.">
+  <meta name="keywords" content="Image Enhancement Dataset, UHD Paired data">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UHD-LOL and LLFormer</title>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <!-- <link rel="icon" href="./static/images/favicon.svg"> -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+  <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+  <style>
+    #pic_list {
+      display: block;
+      white-space: nowrap;
+      overflow: auto;
+    }
+
+    #pic_list li {
+      display: inline-block;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div class="navbar-menu">
+      <div class="navbar-start" style="flex-grow: 1; justify-content: center;">
+        <a class="navbar-item" href="https://github.com/TaoWangzj/LLFormer"> 
+          <span class="icon">
+            <i class="fas fa-home"></i>
+          </span>
+        </a>
+      </div>
+
+    </div>
+  </nav>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">   
+              <font color="Tomato">Ultra-High-Definition Low-Light Image Enhancement: A Benchmark and Transformer-Based Method</font>
+            </h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://scholar.google.com.hk/citations?user=TsDufoMAAAAJ&hl=zh-CN">Tao Wang</a><sup>1</sup>,</span>
+                <span class="author-block">
+                  <a href="https://scholar.google.com.hk/citations?user=eqwDXdMAAAAJ&hl=zh-CN">Kaihao Zhang</a>
+                  <sup>2</sup>,</span>
+                <span class="author-block">
+                  <a>Tianrun Shen</a><sup>1</sup>,
+                </span>
+                
+                <span class="author-block">
+                <a href="https://scholar.google.com.hk/citations?user=g20Q12MAAAAJ&hl=zh-CN">Wenhan Luo</a><sup>3</sup>,
+              </span>
+              <span class="author-block">
+                <a href="https://scholar.google.com.hk/citations?user=plhjgHUAAAAJ&hl=zh-CN">Bjorn Stenger</a><sup>4</sup>,
+              </span>
+
+              <span class="author-block">
+                <a href="https://cs.nju.edu.cn/lutong/index.htm">Tong Lu</a><sup>1</sup>
+              </span>
+            </div>
+
+            <div class="is-size-5 publication-authors">
+              <span class="author-block"><sup>1</sup>Nanjing University,</span>
+              <span class="author-block"><sup>2</sup>Australian National University,</span>
+              <span class="author-block"><sup>3</sup>Shenzhen Campus of Sun Yat-sen University,</span>
+              <span class="author-block"><sup>4</sup>Rakuten Institute of Technology</span>
+              
+              
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="./static/paper/Paper_AAAI2023.pdf"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <span class="link-block">
+                  <a href="https://arxiv.org/pdf/2110.05031.pdf" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="ai ai-arxiv"></i>
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="hero teaser">
+     <div class="container is-max-desktop">
+
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <div class="content has-text-justified">
+            <img src="./static/images/4k_image.gif" class="interpolation-image"
+              alt="Interpolation end reference image." />
+          <div class="content has-text-centered">
+            <p ><b>4K</b> sample paired images (normal-light/low-light) from our <b> UHD-LOL4K </b> dataset. The images are from indoor and outdoor scenes, including
+              buildings, streets, people, natural landsca etc.</p>
+          </div>
+          </div>
+          <div class="content has-text-justified">
+            <img src="./static/images/8k_image.gif" class="interpolation-image"
+              alt="Interpolation end reference image." />
+            <div class="content has-text-centered">
+              <p ><b>8K</b> sample paired images (normal-light/low-light) from our <b> UHD-LOL8K </b> dataset. The images are from indoor and outdoor scenes, including
+                buildings, streets, people, natural landsca etc.</p>
+            </div>
+            </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="section">
+    <div class="container is-max-desktop">
+      <!-- Abstract. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              As the quality of optical sensors improves, there is a need for processing large-scale images. 
+              In particular, the ability of devices to capture ultra-high definition (UHD) images and video places new demands on the image processing pipeline. 
+              In this paper, we consider the task of low-light image enhancement (LLIE) and introduce a large-scale database consisting of images at 4K and 8K resolution. 
+              We conduct systematic benchmarking studies and provide a comparison of current LLIE algorithms. As a second contribution, 
+              we introduce LLFormer, a transformer-based low-light enhancement method. The core components of LLFormer are the axis-based multi-head self-attention and cross-layer attention fusion block, 
+              which significantly reduces the linear complexity. Extensive experiments on the new dataset and existing public datasets show that LLFormer outperforms state-of-the-art methods. 
+              We also show that employing existing LLIE methods trained on our benchmark as a pre-processing step significantly improves the performance of downstream tasks, e.g., face detection in low-light conditions. The source code and pre-trained models are available at https://github.com/TaoWangzj/LLFormer. 
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <!-- Statistics. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">LLFormer</h2>
+          <div class="content has-text-justified">
+            <img src="static/images/LLFormer_Structure.png" class="interpolation-image"
+              alt="Interpolation end reference image." />
+              <div class="content has-text-centered"> 
+                <p> <b>LLFormer architecture </b>. The core design of LLFormer includes an <b>axis-based transformer block</b> and a <b>cross-layer
+                attention fusion block</b>. </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <!-- Statistics. -->
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Benchmarking Results</h2>
+          <div class="content has-text-justified">
+            <img src="static/images/benchmarking_results.png" class="interpolation-image"
+              alt="Interpolation end reference image." />
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    <section class="section">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <!-- <div class="column is-four-fifths"> -->
+          <div class="column is-four-fifths">
+            <h2 class="title is-4 "> Dataset Structure</h2>
+            <div class="content has-text-justified">
+              <table border="1">
+                <thead>
+                  <tr>
+                    <th align="left">Name</th>
+                    <th align="center">Size</th>
+                    <th align="center">Type</th>
+                    <th align="center">Links</th>
+                    <th align="left">Description</th>
+                    <!-- <th align="left">Link</th> -->
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left">UHD-4K</td>
+                    <td align="center">94.9 G</td>
+                    <td align="right"></td>
+                    <td align="center"><a href="https://pan.baidu.com/s/1APv_wBML734Wvb-Utpalig?pwd=s9bp"
+                      rel="nofollow">百度网盘</a></td>
+                    <td align="left">Main folder</td>
+                  </tr>
+                  <tr>
+                    <td align="left">├ Train Set</a></td>
+                    <td align="center">25.2 G</td>
+                    <td align="center">normal/low</td>
+                    <td align="center"> - </a></td>
+                    <td align="left">8099 paired normal/low-light 8K images.</td>
+                  </tr>
+                  <tr>
+                    <td align="left">├ Test Set</a>
+                    </td>
+                    <td align="center">69.7 G</td>
+                    <td align="center">normal/low</td>
+                    <td align="center"> - </a></td>
+                    <td align="left">2100 paired normal/low-light 8K images.</td>
+                  </tr>
+                </tbody>
+                <p>
+                  The UHD-LOL4K subset consists of <b>8099</b> paired 4K images, and <b>5999</b> for training and <b>2100</b> for testing.
+                </p>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container is-max-desktop">
+        <div class="columns is-centered has-text-centered">
+          <!-- <div class="column is-four-fifths"> -->
+          <div class="column is-four-fifths">
+            <!-- <h2 class="title is-4 "> Dataset Structure</h2> -->
+            <div class="content has-text-justified">
+              <table border="1">
+                <thead>
+                  <tr>
+                    <th align="left">Name</th>
+                    <th align="center">Size</th>
+                    <th align="center">Type</th>
+                    <th align="center">Links</th>
+                    <th align="left">Description</th>
+                    <!-- <th align="left">Link</th> -->
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td align="left">UHD-8K</td>
+                    <td align="center">97.8 G</td>
+                    <td align="right"></td>
+                    <td align="center"><a href="https://pan.baidu.com/s/1vIvPcYPkH2r6zyvlS_qjOg?pwd=da6z"
+                      rel="nofollow">百度网盘</a></td>
+                    <td align="left">Main folder</td>
+                  </tr>
+                  <tr>
+                    <td align="left">├ Train Set</a></td>
+                    <td align="center">67.3 G</td>
+                    <td align="center">normal/low</td>
+                    <td align="center"> - </a></td>
+                    <td align="left">2029 paired normal/low-light 8K images.</td>
+                  </tr>
+                  <tr>
+                    <td align="left">├ Test Set</a>
+                    </td>
+                    <td align="center">30.5 G</td>
+                    <td align="center">normal/low</td>
+                    <td align="center"> - </a></td>
+                    <td align="left">937 paired normal/low-light 8K images.</td>
+                  </tr>
+                </tbody>
+                <p>
+                  The UHD-LOL8K subset consists of <b>2966</b> paired 8K images, and <b>2029</b> for training and 937 for testing.
+                </p>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <hr />
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3 ">Agreement</h2>
+          <div class="content has-text-justified">
+
+            <ul>
+              <li> The UHD-LOL dataset is only available to download for non-commercial research purposes. The copyright
+                remains with the original owners of the image. A complete
+                version of the license can be found <a href="https://github.com/HDCVLab/UHD4K_UHD8K">here</a>. </li>
+              <li>You agree not to reproduce, duplicate, copy, sell, trade, resell or exploit for any
+                commercial purposes, any portion of the videos and any portion of derived data. You agree not to further
+                copy, publish or distribute any portion of the UHD-LOL dataset.</li>
+            </ul>
+
+  </section>
+
+  <hr />
+  <section class="section" id="Citaton">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <p>If you find this helpful, please cite our work: </p>
+      <pre><code> @inproceedings{Wang2022LLFormer
+        title={Ultra-High-Definition Low-Light Image Enhancement: A Benchmark and Transformer-Based Method}, 
+        author={Tao Wang, Kaihao Zhang, Tianrun Shen, Wenhan Luo, Bjorn Stenger, Tong Lu},
+        booktitle={AAAI},
+        year={2023}
+    }
+
+    @inproceedings{zhang2021benchmarking,
+      title={Benchmarking ultra-high-definition image super-resolution},
+      author={Zhang, Kaihao and Li, Dongxu and Luo, Wenhan and Ren, Wenqi and Stenger, Bjorn and Liu, Wei and Li, Hongdong and Yang, Ming-Hsuan},
+      booktitle={ICCV},
+      pages={14769--14778},
+      year={2021}
+    }
+  </code></pre>
+    </div>
+  </section>
+
+
+
+  <footer class="footer">
+    <div class="columns is-centered">
+      <div class="content">
+        <p> This template is borrowed from <a href="https://github.com/nerfies/nerfies.github.io"> nerfies's
+            webpage</a>.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    $(window).on('load', function () {
+      $('#loading').hide();
+    })
+  </script>
+
+</body>
+
+</html>
