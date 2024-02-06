@@ -1,0 +1,6 @@
+@article{wang2024promptrr,
+  title={PromptRR: diffusion models as prompt generators for single image reflection Removal},
+  author={Wang, Tao and Lu Wanglong and Zhang, Kaihao and  and Luo, Wenhan and and Kim, Tae-Kyun and Lu Tong and Li, Hongdong and Ming-Hsuan Yang},
+  journal={arXiv preprint arXiv:2402.02374},
+  year={2024}
+}
