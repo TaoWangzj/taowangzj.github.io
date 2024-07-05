@@ -1,198 +1,292 @@
-<!DOCTYPE HTML>
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <title>Tao Wang</title>
-  
-  <meta name="author" content="Jon Barron">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
- 
-  
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<html lang="en" class=" js "><head><meta charset="utf-8"> 
+    <title>Tao Wang</title><meta property="og:locale" content="en">
+<meta property="og:site_name" content="">
+<meta property="og:title" content="">
+<link rel="canonical" href="https://taowangzj.github.io/">
+<meta property="og:url" content="https://taowangzj.github.io/">
+<meta name="twitter:site" content="@">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="Computer Vision’er’">
+<meta name="twitter:url" content="https://taowangzj.github.io/">
+<meta name="twitter:card" content="summary"> 
+<script type="text/javascript" async="" src="https://ssl.google-analytics.com/ga.js"></script><script type="application/ld+json"> 
+    { "@context" : "http://schema.org", 
+      "@type" : "Person", 
+      "name" : "", 
+      "url" : "https://chrischoy.github.io", 
+      "sameAs" : null } 
+</script> 
+<link href="https://chrischoy.github.io/feed.xml" type="application/atom+xml" rel="alternate" title=" Feed"> 
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<script> document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js '; </script> 
+<link rel="shortcut icon" href="img/GZU-removebg-preview.ico" type="image/x-icon">
+<link rel="stylesheet" href="https://chrischoy.github.io/assets/css/main.css">
+<meta http-equiv="cleartype" content="on"> 
+
+<style type="text/css">
+    table.gridtable {
+        font-family: verdana,arial,sans-serif;
+        font-size:11px;
+        color:#333333;
+        border-width: 1px;
+        border-color: #666666;
+        border-collapse: collapse;
+    }
+    table.gridtable th {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #dedede;
+    }
+    table.gridtable td {
+        border-width: 1px;
+        padding: 8px;
+        border-style: solid;
+        border-color: #666666;
+        background-color: #ffffff;
+    }
+</style>
+
+
+<!--实现悬停功能-->
+<style>
+    /* 设置一些样式，确保图像不会超过容器 */
+    #gif-container {
+      overflow: hidden;
+      box-shadow: 4px 4px 8px #888;
+    }
+  </style>
+<!--实现点击复制功能-->
+<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style><script charset="utf-8" src="https://platform.twitter.com/js/timeline.16b53cc33aaa562f8f41a495bf720289.js"></script>
+<script>
+    copyInnerTextOfCell = (event) => {
+      let innerText = event.target.innerText;
+      var tmpInput = document.createElement("input");
+      document.body.appendChild(tmpInput);
+      tmpInput.value = "taowangzj@gmail.com";
+      tmpInput.select();
+      document.execCommand("cut"); // copy
+      tmpInput.remove();
+      alert("Copy Succeed! This is taowang's email address!");
+    }
+</script>
+
+<!--实现点击展开功能-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    .collapsible {
+      background-color: #f1f1f1;
+      color: black;
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: center; 
+      outline: none;
+      font-size: 15px;
+    }
+
+    .content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      background-color: white;
+    }
+    </style>
+
+    <title>倒计时</title>
+    <style>
+        #timer {
+            font-size: 15px;
+            text-align: center;
+            margin-top: 1px;
+        }
+    </style>
+
+    <title>Current Date1</title>
+
+    <title>Current Date2</title>
+
 </head>
+<body style="margin-bottom: 131px;">
+<div class="masthead">
+    <div class="masthead__inner-wrap">
+        <div class="masthead__menu">
+            <nav id="site-nav" class="greedy-nav"> 
+                <button class="hidden" count="0"><div class="navicon"></div></button>
+                <ul class="visible-links">
+                    <li class="masthead__menu-item"><a href="">Home</a></li>
+                    <li class="masthead__menu-item"><a href="#Research">Research</a></li>
+                    <li class="masthead__menu-item"><a href="#Updates">Updates</a></li>
+                    <li class="masthead__menu-item"><a href="publication.html">Publications</a></li>
+                    <li class="masthead__menu-item"><a href="#Services">Services</a></li>
+                    <li class="masthead__menu-item"><a href="#visitors">Visitors</a></li>
+                </ul>
+                <ul class="hidden-links hidden"></ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<div id="main" role="main">
+    <div class="sidebar sticky">
+        <div itemscope="" itemtype=" ">
+            <div class="author__content">
+                <img src="data/taowang_new.png">
+                <h3 class="author__name">Tao Wang</h3>
+                <p class="author__bio">Ph.D. candidate, NJU<br></p>
+            </div>
+            <div class="author__urls-wrapper"> 
+                <button class="btn btn--inverse">Follow</button>
+                <ul class="author__urls social-icons" style="display: none;">
 
-<body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:63%;vertical-align:middle">
-              <p style="text-align:center">
-                <name>Tao Wang</name>
-              </p>
-            
-
-             <p style="text-align:center">
-                <a href="https://scholar.google.com.hk/citations?user=TsDufoMAAAAJ&hl=zh-CN"><i class="fa fa-graduation-cap fa-fw" style="font-size:100%;width:4.2ch;margin-top:1px;"></i>Scholar</a> &nbsp &nbsp  &nbsp 
-                <a href="publication.html"><i class="fa fa-file-o fa-fw" style="font-size:100%;width:4ch;margin-top:1px;"></i>Publication</a> &nbsp &nbsp  &nbsp 
-               <a href="https://github.com/TaoWangzj"><i class="fa fa-external-link-square fa-fw" style="font-size:100%;width:4ch;margin-top:1px;"></i>Github</a> &nbsp &nbsp  &nbsp
-              </p>
-            </td>
-          </tr>
-        </tbody></table>
-
-
-
-        <div class="section">
-          
-          <div class="mysection">
-            <p style="text-align:justify; text-justify:inter-ideograph;"> I am a Ph.D. candidate at Department of Computer Science and Technology, Nanjing University (NJU). I am a member of <a href="https://cs.nju.edu.cn/lutong/" target="_blank">IMAGINE Laboratory</a> and my academic supervisor is Prof. <a href="https://cs.nju.edu.cn/lutong/" target="_blank">Tong Lu</a>. Before that, I received master's degree in 2021, under the supervision of Prof. <a href="https://homepage.zjut.edu.cn/zxq1/" target="_blank">Xiaoqin Zhang</a>. I work very close with my friends <a href="https://whluo.github.io/" target="_blank"> Wenhan Luo</a> and <a href="https://zhangkaihao.github.io/" target="_blank"> Kaihao Zhang</a>. 
-
+                    <li style="display: flex; align-items: center;">
+                        <i class="fa fa-fw fa-map-marker" aria-hidden="true" style="margin-right: 8px; align-self: flex-start; transform: translateY(50%);"></i> 
+                        <span style="white-space: normal;">
+                        NJU, Qixia District, Nanjing, China
+                        </span>
+                      </li>
+                    <li><a onclick="copyInnerTextOfCell(event)"><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;&nbsp;taowangzj@gmail.com</a></li>
+                    <li><a href="https://scholar.google.com.hk/citations?user=TsDufoMAAAAJ&hl=zh-CN"><i class="fa fa-graduation-cap fa-fw" aria-hidden="true"></i>&nbsp;&nbsp;Scholar</a></li>
+                    <!-- <li><a href="https://dblp.org/pid/12/5838-52.html"><i class="fa fa-dblp" aria-hidden="true"></i> DBLP</a></li> -->
+                    <li><a href="https://github.com/TaoWangzj"><i class="fa fa-github" aria-hidden="true"></i>&nbsp;&nbsp; Github</a></li>
+                
+                </ul>
+            </div>
+        </div>
+    </div>    
+    
+    <article class="page" itemscope="" itemtype="http://schema.org/CreativeWork"><meta itemprop="dateModified" content="April 06, 2020">
+        <div class="page__inner-wrap"><header></header><section class="page__content" itemprop="text">
+            <p>
+                I am a Ph.D. candidate at Department of Computer Science and Technology, Nanjing University (NJU). I am a member of <a href="https://cs.nju.edu.cn/lutong/" target="_blank">IMAGINE Laboratory</a> and my academic supervisor is Prof. <a href="https://cs.nju.edu.cn/lutong/" target="_blank">Tong Lu</a>. Before that, I received master's degree in 2021, under the supervision of Prof. <a href="https://homepage.zjut.edu.cn/zxq1/" target="_blank">Xiaoqin Zhang</a>. I work very close with my friends <a href="https://whluo.github.io/" target="_blank"> Wenhan Luo</a> and <a href="https://zhangkaihao.github.io/" target="_blank"> Kaihao Zhang</a>.
             </p>
-          
-              <p>
+
+            <p>
                 Here is my <a href="data/TaoWang_cv_final_final.pdf" target="_blank">[CV]</a>, and you can contact me by E-mail: <text class="email">taowangzj@gmail.com</a>.
                 <strong><font color="red">I am looking for research positions about computer vision and image processing, feel free to contact me if you have related information.</font></strong>  
             </p>
-                            
-           </div>
-          </div>
 
-          <br><br>
-
-        <div class="section">
-          <h2>Research interest</h2>
-            <div class="research">
-              <p style="text-align:justify; text-justify:inter-ideograph;">I am interested in several topics in computer vision and machine learning. Specifically, my research focuses on creative AI, such as image/video enhancement and synthesis, AI generated content (AIGC).</p>
+            
+            <h2 id="Research">Research</h2>
+            <div>
+            <p>
+                I am interested in several topics in computer vision and machine learning. Specifically, my research focuses on creative AI, such as image/video enhancement and synthesis, AI generated content (AIGC).
+            </p>
             </div>
-
-           
-        </div>
-
-        <br><br>
-
-       
- 
-        <div class="section" id="news">
-          <h2>Updates</h2>
-            <div class="paper">
-            <p>2024/07 - One paper was accepted by ECAI 2024 (correspondence pruning).</p> 
-            <p>2024/07 - One paper was accepted by ECCV 2024 (personalized text-to-image generation).</p>
-            <p>2024/03 - One paper was accepted by TCSVT (blind face restoration).</p> 
-            <p>2024/03 - One paper was accepted by IJCV (adverse weather restoration).</p> 
-            <p>2023/12 - One paper was accepted by AAAI 2024 (correspondence pruning).</p> 
-            <p>2023/11 - One paper was accepted by TCSVT (under-display camera face image restoration).</p>  
-            <p>2023/11 - Sun-Xiangzhen scholarship of Nanjing University.</p>
-            <p>2023/09 - One paper was accepted by NeurIPS 2023 (punctuation-level attack for text models).</p>
-            <p>2023/09 - One paper was accepted by TCSVT (a comprehensive benchmark for image deblurring).</p>
-            <p>2023/09 - One paper was accepted by PR (image dehazing).</p>
-            <p>2023/04 - One paper was accepted by IJCAI 2023 (graph representation learning).</p>
-            <p>2023/04 - One paper was accepted by TCSVT (rgb-d salient object detection).</p>
-            <p>2023/01 - One paper was selected for an ORAL presentation at AAAI 2023 (UHD low-light enhancement).</p> 
-            <p>2022/11 - One paper was accepted by AAAI 2023 (UHD low-light enhancement).</p> 
-            <p>2022/11 - One paper was online in Arxiv (face restoration survey), see the <a href="https://www.51cto.com/article/740298.html">news</a>.</p>
-            <p>2022/03 - One paper was accepted by ICME2022 (ORAL) (few-shot learning).</p>
-            <p>2021/07 - One paper was accepted by TCSVT (video deblurring).</p>
-            <p>2021/03 - One paper was accepted by TIP (image dehazing).</p>
-            <p>2021/01 - One paper was accepted by Neurocomputing (image dehazing).</p>
-            <p>2020/12 - One paper was accepted by TCSVT (image dehazing).</p>
-            <p>2020/11 - One paper was accepted by CVIU (video deblurring).</p>
-            <p class="hidden_news" style="display:none">2020/10 - One paper was accepted by TCSVT (video deblurring).</p>
-            <p class="hidden_news" style="display:none">2020/05 - One paper was accepted by CVIU (image dehazing).</p>  
-            <p id="ShowLink_news"><a href="#" onclick="var elements = document.getElementsByClassName('hidden_news');for(var i=0; i&lt;elements.length; i++) {elements[i].style.display='block';}document.getElementById('ShowLink_news').style.display='none';document.getElementById('HideLink_news').style.display='block';return false;" title="Show more News"><font size="2">Show more</font></a></p>
-            <p id="HideLink_news" style="display:none"><a href="#" onclick="var elements = document.getElementsByClassName('hidden_news');for(var i=0; i&lt;elements.length; i++) {elements[i].style.display='none';}document.getElementById('HideLink_news').style.display='none';document.getElementById('ShowLink_news').style.display='block';return false;" title="Show less News"><font size="2">Show less</font></a></p>
-          
-            </div>
-          </div>
-
-         <br><br>
-          
-         <div class="section">
-          <h2>Recent Projects</h2>
-            <div class="research">
-              <a href="https://arxiv.org/abs/2305.17863"><papertitle>Gridformer: Residual Dense Transformer with Grid Structure for Image Restoration in Adverse Weather Conditions</papertitle></a>,
-              <br>
-              T. Wang, K. Zhang, Z. Shao, W. Luo, B. Stenger, T. Lu, TK. Kim, W. Liu, H. Li
-              <br>
-              <i>International Journal of Computer Vision (IJCV), 2024. (<strong><font color="red">Top Journal</font></strong>)</i>  
-
-              <p style="text-align:justify; text-justify:inter-ideograph;">A general Transformer backbone for image restoration in adverse weather conditions.</p>
-
-              <br>
-              
-              <a href="https://arxiv.org/pdf/2212.11548.pdf"><papertitle>Ultra-High-Definition Low-Light Image Enhancement: A Benchmark and Transformer-Based Method</papertitle></a>,
-              <br>
-              T. Wang, K. Zhang, T. Shen, W. Luo, B. Stenger, T. Lu,
-              <br>
-              <i>Proc. of the Association for the Advancement of Artificial Intelligence (AAAI), USA, 2023. (<strong><font color="red">ORAL</font></strong>)</i>  
-
-              <p style="text-align:justify; text-justify:inter-ideograph;">The first work proposing the UHD-LLIE problem and addressing it with transformer.</p>
-
-              <br>
-              <a href="https://www.sciencedirect.com/science/article/pii/S1077314220301545"><papertitle>Video Deblurring via Spatiotemporal Pyramid Network and Adversarial Gradient Prior</papertitle></a>,
-              <br>
-              T. Wang, X. Zhang, R. Jiang, L. Zhao, H. Chen, W. Luo,
-              <br>
-              <i>Computer Vision and Image Understanding (CVIU), 2021.</i>
-
-              <p style="text-align:justify; text-justify:inter-ideograph;">Video deblurring with spatiotemporal learning and adversarial gradient prior.</p>
-
-
-
-              <br>
-              <a href="https://ieeexplore.ieee.org/abstract/document/9302656/"><papertitle>Multi-level Fusion and Attention-guided CNN for Image Dehazing</papertitle></a>,
-              <br>
-               X. Zhang, T. Wang*, W. Luo, P. Huang,
-              <br>
-              <i>IEEE Trans. on Circuits and Systems for Video Technology (TCSVT), 2021. (<strong><font color="red">ESI Highly Cited Paper</font></strong>)</i>
-
-              <p style="text-align:justify; text-justify:inter-ideograph;">A unified framework for image dehazing using multi-level fusion and attetnion mechanism.</p>
-
-
-
-              <br>
-              <a href="https://ieeexplore.ieee.org/document/9435998"><papertitle>Single Image Dehazing via Dual-Path Recurrent Network</papertitle></a>,
-              <br>X. Zhang, R. Jiang, T. Wang, W. Luo,<br>
-              <i>IEEE Trans. on Image Processing (TIP), 2021.</i>
-              <p style="text-align:justify; text-justify:inter-ideograph;">A recurrent framework to generate the clear image given a hazy image.</p>
-
-
-              <br>
-              <a href="https://www.sciencedirect.com/science/article/pii/S0031320323006544"><papertitle>Restoring Vision in Hazy Weather with Hierarchical Contrastive Learning</papertitle></a>,
-              <br>T. Wang, G. Tao, W. Lu, K. Zhang, W. Luo, X. Zhang, T. Lu,<br>
-                            <i>Pattern Recognition (PR), 2023. </i>
-              <p style="text-align:justify; text-justify:inter-ideograph;">A framework using contrastive learning to produce visually pleasing images.</p>
+            <div class="section" id="Updates">
+                <h2>Updates</h2>
+                  <div class="paper">
+                  <p>2024/07 - One paper was accepted by ECAI 2024 (correspondence pruning).</p> 
+                  <p>2024/07 - One paper was accepted by ECCV 2024 (personalized text-to-image generation).</p>
+                  <p>2024/03 - One paper was accepted by TCSVT (blind face restoration).</p> 
+                  <p>2024/03 - One paper was accepted by IJCV (adverse weather restoration).</p> 
+                  <p>2023/12 - One paper was accepted by AAAI 2024 (correspondence pruning).</p> 
+                  <p>2023/11 - One paper was accepted by TCSVT (under-display camera face image restoration).</p>  
+                  <p>2023/11 - Sun-Xiangzhen scholarship of Nanjing University.</p>
+                  <p>2023/09 - One paper was accepted by NeurIPS 2023 (punctuation-level attack for text models).</p>
+                  <p>2023/09 - One paper was accepted by TCSVT (a comprehensive benchmark for image deblurring).</p>
+                  <p>2023/09 - One paper was accepted by PR (image dehazing).</p>
+                  <p>2023/04 - One paper was accepted by IJCAI 2023 (graph representation learning).</p>
+                  <p>2023/04 - One paper was accepted by TCSVT (rgb-d salient object detection).</p>
+                  <p>2023/01 - One paper was selected for an ORAL presentation at AAAI 2023 (UHD low-light enhancement).</p> 
+                  <p>2022/11 - One paper was accepted by AAAI 2023 (UHD low-light enhancement).</p> 
+                  <p>2022/11 - One paper was online in Arxiv (face restoration survey), see the <a href="https://www.51cto.com/article/740298.html">news</a>.</p>
+                  <p class="hidden_news" style="display:none">2022/03 - One paper was accepted by ICME2022 (ORAL) (few-shot learning).</p>
+                  <p class="hidden_news" style="display:none">2021/07 - One paper was accepted by TCSVT (video deblurring).</p>
+                  <p class="hidden_news" style="display:none">2021/03 - One paper was accepted by TIP (image dehazing).</p>
+                  <p class="hidden_news" style="display:none">2021/01 - One paper was accepted by Neurocomputing (image dehazing).</p>
+                  <p class="hidden_news" style="display:none">2020/12 - One paper was accepted by TCSVT (image dehazing).</p>
+                  <p class="hidden_news" style="display:none">2020/11 - One paper was accepted by CVIU (video deblurring).</p>
+                  <p class="hidden_news" style="display:none">2020/10 - One paper was accepted by TCSVT (video deblurring).</p>
+                  <p class="hidden_news" style="display:none">2020/05 - One paper was accepted by CVIU (image dehazing).</p>  
+                  <p id="ShowLink_news"><a href="#" onclick="var elements = document.getElementsByClassName('hidden_news');for(var i=0; i&lt;elements.length; i++) {elements[i].style.display='block';}document.getElementById('ShowLink_news').style.display='none';document.getElementById('HideLink_news').style.display='block';return false;" title="Show more News"><font size="2">Show more</font></a></p>
+                  <p id="HideLink_news" style="display:none"><a href="#" onclick="var elements = document.getElementsByClassName('hidden_news');for(var i=0; i&lt;elements.length; i++) {elements[i].style.display='none';}document.getElementById('HideLink_news').style.display='none';document.getElementById('ShowLink_news').style.display='block';return false;" title="Show less News"><font size="2">Show less</font></a></p>
+                
+                  </div>
             
 
-
-              
-
-
-
-
-
-            </div>
-        </div>
-
-        
-
-  
-
-
-      <br><br>
-
-      <div class="section" id="Professional Activities">
-        <h2>Professional Activities</h2>
-          <div class="Professional Activities">
-          <p>Conference Reviewer: CVPR, ECCV, ICCV, NeurIPS, AAAI, IJCAI, ACM MM, etc.</p> 
-          <p>Journal Reviewer: TCSVT, CVIU, TII, TMM, etc.</p>
-          </div>
-        </div>
-
-       <br><br>
-
-        <div style="clear:both;">
+                  <div class="section">
+                    <h2>Recent Projects</h2>
+                      <div class="research">
+                        <a href="https://arxiv.org/abs/2305.17863"><papertitle>Gridformer: Residual Dense Transformer with Grid Structure for Image Restoration in Adverse Weather Conditions</papertitle></a>,
+                        <br>
+                        T. Wang, K. Zhang, Z. Shao, W. Luo, B. Stenger, T. Lu, TK. Kim, W. Liu, H. Li
+                        <br>
+                        <i>International Journal of Computer Vision (IJCV), 2024. (<strong><font color="red">Top Journal</font></strong>)</i>  
           
-          <p align="center"><font size="2"><a href="http://bjornstenger.github.io/">I like this website</a>  &nbsp &nbsp &nbsp &nbsp &nbsp   <a href="https://jonbarron.info/">Design credit</a></font></p><br />
+                        <p style="text-align:justify; text-justify:inter-ideograph;">A general Transformer backbone for image restoration in adverse weather conditions.</p>
+          
+                        <br>
+                        
+                        <a href="https://arxiv.org/pdf/2212.11548.pdf"><papertitle>Ultra-High-Definition Low-Light Image Enhancement: A Benchmark and Transformer-Based Method</papertitle></a>,
+                        <br>
+                        T. Wang, K. Zhang, T. Shen, W. Luo, B. Stenger, T. Lu,
+                        <br>
+                        <i>Proc. of the Association for the Advancement of Artificial Intelligence (AAAI), USA, 2023. (<strong><font color="red">ORAL</font></strong>)</i>  
+          
+                        <p style="text-align:justify; text-justify:inter-ideograph;">The first work proposing the UHD-LLIE problem and addressing it with transformer.</p>
+          
+                        <br>
+                        <a href="https://www.sciencedirect.com/science/article/pii/S1077314220301545"><papertitle>Video Deblurring via Spatiotemporal Pyramid Network and Adversarial Gradient Prior</papertitle></a>,
+                        <br>
+                        T. Wang, X. Zhang, R. Jiang, L. Zhao, H. Chen, W. Luo,
+                        <br>
+                        <i>Computer Vision and Image Understanding (CVIU), 2021.</i>
+          
+                        <p style="text-align:justify; text-justify:inter-ideograph;">Video deblurring with spatiotemporal learning and adversarial gradient prior.</p>
+          
+          
+          
+                        <br>
+                        <a href="https://ieeexplore.ieee.org/abstract/document/9302656/"><papertitle>Multi-level Fusion and Attention-guided CNN for Image Dehazing</papertitle></a>,
+                        <br>
+                         X. Zhang, T. Wang*, W. Luo, P. Huang,
+                        <br>
+                        <i>IEEE Trans. on Circuits and Systems for Video Technology (TCSVT), 2021. (<strong><font color="red">ESI Highly Cited Paper</font></strong>)</i>
+          
+                        <p style="text-align:justify; text-justify:inter-ideograph;">A unified framework for image dehazing using multi-level fusion and attetnion mechanism.</p>
+          
+          
+          
+                        <br>
+                        <a href="https://ieeexplore.ieee.org/document/9435998"><papertitle>Single Image Dehazing via Dual-Path Recurrent Network</papertitle></a>,
+                        <br>X. Zhang, R. Jiang, T. Wang, W. Luo,<br>
+                        <i>IEEE Trans. on Image Processing (TIP), 2021.</i>
+                        <p style="text-align:justify; text-justify:inter-ideograph;">A recurrent framework to generate the clear image given a hazy image.</p>
+          
+          
+                        <br>
+                        <a href="https://www.sciencedirect.com/science/article/pii/S0031320323006544"><papertitle>Restoring Vision in Hazy Weather with Hierarchical Contrastive Learning</papertitle></a>,
+                        <br>T. Wang, G. Tao, W. Lu, K. Zhang, W. Luo, X. Zhang, T. Lu,<br>
+                                      <i>Pattern Recognition (PR), 2023. </i>
+                        <p style="text-align:justify; text-justify:inter-ideograph;">A framework using contrastive learning to produce visually pleasing images.</p>
+                      
+          
+                      </div>
+                    </div>
+
+                    <div class="section" id="Services">
+                        <h2>Professional Activities</h2>
+                          <div class="Professional Activities">
+                          <p>Conference Reviewer: CVPR, ECCV, ICCV, NeurIPS, AAAI, IJCAI, ACM MM, etc.</p> 
+                          <p>Journal Reviewer: TCSVT, CVIU, TII, TMM, etc.</p>
+                          </div>
+                        </div>                
+                            
+                <h2 id="visitors">Visitors</h2>                
+                </div>
+                    <script type="text/javascript" src="//rf.revolvermaps.com/0/0/6.js?i=5u5v36uynno&amp;m=6&amp;c=00fff6&amp;cr1=ffc000&amp;f=arial&amp;l=0" async="async"></script>
+                </div></section>
+                <footer class="page__meta"><p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-06-16">Jun. 27, 2024</time></p></footer>
+            </div>    
         </div>
-
-
-      </td>
-    </tr>
-  </table>
-</body>
-
-</html>
+    </article>
+</div>
+<div class="page__footer"><footer>
+<div class="page__footer-copyright">
+    The template for the design of the web page borrow codes comes from <a href="https://github.com/YunheWang/HomePage">Yunhe Wang</a>,
+    <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>. </div>
+</footer></div><script src="https://chrischoy.github.io/assets/js/main.min.js"></script> <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-43980256-2']); _gaq.push(['_trackPageview']); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script> <script src="//d3js.org/d3.v4.min.js" type="text/javascript"></script> <script src="//d3js.org/d3-axis.v1.min.js" type="text/javascript"></script>
