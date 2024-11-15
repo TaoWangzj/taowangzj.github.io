@@ -74,6 +74,23 @@
     }
 </script>
 
+<style>
+    /* 地球仪容器样式 */
+    #globe-container {
+        width: 90%; /* 默认占屏幕宽度的90% */
+        max-width: 600px; /* 最大宽度 */
+        aspect-ratio: 1; /* 保持正方形比例 */
+        margin: 0 auto; /* 居中对齐 */
+        overflow: hidden; /* 防止内容溢出 */
+    }
+
+    /* ClustrMaps 地球仪脚本自适应容器 */
+    #clstr_globe {
+        width: 100%;
+        height: 100%;
+    }
+</style>
+    
 <!--实现点击展开功能-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
@@ -257,7 +274,7 @@
                         <a href="https://ieeexplore.ieee.org/document/9435998"><papertitle>Single Image Dehazing via Dual-Path Recurrent Network</papertitle></a>,
                         <br>X. Zhang, R. Jiang, T. Wang, W. Luo,<br>
                         <i>IEEE Trans. on Image Processing (TIP), 2021.</i>
-                        <p style="text-align:justify; text-justify:inter-ideograph;">A recurrent framework to generate the clear image given a hazy image.</p>
+                        <p style="text-align:justify; text-justify:inter-ideograph;">A recurrent framework to generate a clear image given a hazy image.</p>
           
           
                         <br>
@@ -279,9 +296,9 @@
                         </div>                
                             
                 <h2 id="visitors">Visitors</h2>                
-                </div>
-                  <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=HpDM8e07AdKUqxj7S-j1Bl0FyDqsg4moaSLvltwybqo"></script>
-                </div></section>
+                   <div id="globe-container">
+                   <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=HpDM8e07AdKUqxj7S-j1Bl0FyDqsg4moaSLvltwybqo"></script>
+                   </div> </section>
                 <footer class="page__meta"><p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> Updated:</strong> <time datetime="2024-07-05">Nov. 16, 2024</time></p></footer>
             </div>    
         </div>
