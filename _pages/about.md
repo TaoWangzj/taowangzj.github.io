@@ -30,7 +30,7 @@ I am interested in several topics in computer vision and machine learning. Speci
 
 
 # 🔥 News
-- *2025.06*: 🎉 Updating new homepage.
+- *2025.07*: 🎉 Updating new homepage.
 - *2025.06*: 🎉 Two papers were accepted by ICCV 2025 (MOERL and MaterialMVP).
 - *2025.05*:    Successfully defended PhD dissertation.
 - *2025.04*: 🎉 One paper was accepted by SIGGRAPH 2025 (video super-resolution).
