@@ -22,7 +22,7 @@ I am currently a  Post-doctoral Fellow in the [C4G](https://c4g-hkust.github.io/
 
 
 
-Here is my <a href="/files/Taowang_cv.pdf" target="_blank">[CV]</a>, and you can contact me by E-mail: [taowangzj@gmail.com](mailto:taowangzj@gmail.com).
+Here is my <a href="/images/Taowang_cv.pdf" target="_blank">[CV]</a>, and you can contact me by E-mail: [taowangzj@gmail.com](mailto:taowangzj@gmail.com).
 
 <span class="anchor" id="research"></span>
 # Research
