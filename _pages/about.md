@@ -22,7 +22,7 @@ I am currently a  Post-doctoral Fellow in the [C4G](https://c4g-hkust.github.io/
 
 
 
-Here is my <a href="/images/Taowang_cv.pdf" target="_blank">[CV]</a>, and you can contact me by E-mail: [taowangzj@gmail.com](mailto:taowangzj@gmail.com).
+Here is my <a href="/images/Taowang_cv.pdf?v=1" target="_blank">[CV]</a>, and you can contact me by E-mail: [taowangzj@gmail.com](mailto:taowangzj@gmail.com).
 
 <span class="anchor" id="research"></span>
 # Research
@@ -136,7 +136,7 @@ Pattern Recognition (PR), 2023.
 
 Conference Reviewer: CVPR, ECCV, ICCV, NeurIPS, ICLR, SIGGRAPH, AAAI, IJCAI, ACM MM, etc.
 
-Journal Reviewer: TPAMI, TIP, TCSVT, CVIU, TII, TMM, ITS, NN, etc.
+Journal Reviewer: TPAMI, TIP, PR, TCSVT, CVIU, TII, TMM, ITS, NN, etc.
 
 
 <span class='anchor' id='Visitor'></span>
