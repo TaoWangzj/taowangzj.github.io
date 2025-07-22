@@ -97,7 +97,7 @@ International Journal of Computer Vision (IJCV), 2024.
 Proc. of the Association for the Advancement of Artificial Intelligence (AAAI), 2023.
 
 [**PDF**](https://arxiv.org/pdf/2212.11548.pdf) [**Code**](https://github.com/TaoWangzj/LLFormer) 
-- The first work proposing the UHD-LLIE problem and addressing it with transformer.
+- The first work proposing the UHD-LLIE problem and addressing it with Transformer.
 </div>
 </div>
 
