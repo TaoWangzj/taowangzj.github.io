@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a  Post-doctoral Fellow in the [C4G](https://c4g-hkust.github.io/) at Hong Kong University of Science and Technology (HKUST), working on low-level vision and multimodal generation. Before that, I received the Ph.D. degree from the School of Computer Science, Nanjing University (NJU), 2025, under the supervision of Prof. [Tong lu](https://cs.nju.edu.cn/lutong/). From September 2024 to March 2025, I worked as an academic intern at VIVO (Shanghai). I have published over 40+ peer-reviewed papers in top-tier journals and conferences, like IJCV, TIP, ICCV, ECCV, NeurIPS, SIGGRAPH, AAAI, IJCAI, ACM MM, etc. I am a reviewer for TPAMI, TIP, CVPR, ICCV, ECCV, NeurIPS, SIGGRAPH, ICLR, AAAI, IJCAI, etc.
+I am a researcher, working on low-level vision and multimodal generation. Before that, I received the Ph.D. degree from the School of Computer Science, Nanjing University (NJU), 2025, under the supervision of Prof. [Tong lu](https://cs.nju.edu.cn/lutong/). From September 2024 to March 2025, I worked as an academic intern at VIVO (Shanghai). I have published over 40+ peer-reviewed papers in top-tier journals and conferences, like IJCV, TIP, ICCV, ECCV, NeurIPS, SIGGRAPH, AAAI, IJCAI, ACM MM, etc. I am a reviewer for TPAMI, TIP, CVPR, ICCV, ECCV, NeurIPS, SIGGRAPH, ICLR, AAAI, IJCAI, etc.
 
 
 
