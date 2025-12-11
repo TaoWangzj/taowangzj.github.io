@@ -30,8 +30,8 @@ I am interested in several topics in computer vision and machine learning. Speci
 
 
 # 🔥 News
-- *2025.12*: 🎉 LLFormer V2 has been released, the <a href="https://github.com/TaoWangzj/LLFormerV2">link</a>.
-- *2025.11*: 🎉 Our Deep IR survey repository is available, the <a href="https://github.com/TaoWangzj/Awesome-Image-Restoration">link</a>.
+- *2025.12*: 🎉 LLFormer V2 has been released, see the <a href="https://github.com/TaoWangzj/LLFormerV2">link</a>.
+- *2025.11*: 🎉 Our Deep IR survey repository is available, see the <a href="https://github.com/TaoWangzj/Awesome-Image-Restoration">link</a>.
 - *2025.09*: 🎉 Joining vivo.
 - *2025.07*: 🎉 Updating new homepage.
 - *2025.06*: 🎉 Two papers were accepted by ICCV 2025 (MOERL and MaterialMVP).
