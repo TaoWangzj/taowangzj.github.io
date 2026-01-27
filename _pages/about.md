@@ -18,11 +18,11 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 
-Currently, I am a researcher and engineer in the Image Quality and Perception Algorithms Center of vivo, working on low-level vision and multimodal generation. Before that, I received the Ph.D. degree from the School of Computer Science, Nanjing University (NJU), 2025, under the supervision of Prof. [Tong lu](https://cs.nju.edu.cn/lutong/). From September 2024 to March 2025, I worked as an academic intern at VIVO (Shanghai). I have published over 40+ peer-reviewed papers in top-tier journals and conferences, like IJCV, TIP, ICCV, ECCV, NeurIPS, SIGGRAPH, AAAI, IJCAI, ACM MM, etc. I am a reviewer for TPAMI, TIP, CVPR, ICCV, ECCV, NeurIPS, SIGGRAPH, ICLR, AAAI, IJCAI, etc.
+Currently, I am a senior researcher in the Image Quality and Perception Algorithms Center of vivo, working on low-level vision and multimodal generation. Before that, I received the Ph.D. degree from the School of Computer Science, Nanjing University (NJU), 2025, under the supervision of Prof. [Tong lu](https://cs.nju.edu.cn/lutong/). From September 2024 to March 2025, I worked as an academic intern at VIVO (Shanghai). I have published over 40+ peer-reviewed papers in top-tier journals and conferences, like IJCV, TIP, ICCV, ECCV, NeurIPS, SIGGRAPH, AAAI, IJCAI, ACM MM, etc. I am a reviewer for TPAMI, TIP, CVPR, ICCV, ECCV, NeurIPS, SIGGRAPH, ICLR, AAAI, IJCAI, etc.
 
 
 
-We are hiring self-motivated research interns. If you are interested in our group, please feel free to contact me by E-mail: [taowangzj@gmail.com](mailto:taowangzj@gmail.com).
+I am hiring self-motivated research interns. If you are interested, please feel free to contact me by E-mail: [taowangzj@gmail.com](mailto:taowangzj@gmail.com).
 
 <span class="anchor" id="research"></span>
 # Research
