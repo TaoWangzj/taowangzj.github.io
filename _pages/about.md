@@ -22,7 +22,7 @@ Currently, I am a senior researcher in the Image Quality and Perception Algorith
 
 
 
-I am hiring self-motivated research interns. If you are interested, please feel free to contact me by E-mail: [taowangzj@gmail.com](mailto:taowangzj@gmail.com).
+I am hiring self-motivated research interns. I am always open to research discussions and collaborations. If you are interested, please feel free to contact me by E-mail: [taowangzj@gmail.com](mailto:taowangzj@gmail.com).
 
 <span class="anchor" id="research"></span>
 # Research
