@@ -12,7 +12,7 @@ redirect_from:
 
 40. **Deep Face Restoration: A Survey**  
    T. Wang, K. Zhang, J. Deng, T. Lu, W. Liu, S. Zafeiriou  
-   *ACM Computing Survey, 2026.*  
+   *ACM Computing Surveys, 2026.*  
    [PDF](https://arxiv.org/abs/2211.02831) [Project](https://github.com/TaoWangzj/Awesome-Face-Restoration)
 
 39. **Evolutionary Multi-Agent Collaboration for Real-World Video Face Restoration**  
