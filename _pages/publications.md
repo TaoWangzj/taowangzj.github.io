@@ -10,6 +10,21 @@ redirect_from:
 
 (* indicates corresponding author, + indicates equal contribution)
 
+40. **Deep Face Restoration: A Survey**  
+   T Wang, K Zhang, J Deng, T Lu, W Liu, S Zafeiriou  
+   *ACM Computing Survey, 2026.*  
+   [PDF](https://arxiv.org/abs/2211.02831) [Project](https://github.com/TaoWangzj/Awesome-Face-Restoration)
+
+39. **Evolutionary Multi-Agent Collaboration for Real-World Video Face Restoration**  
+   B. Tang, T. Tang, M. Zhang, X. Yu, J. Chen, B. Li, K. Zhang  
+   *Proc. of IEEE Conference on Computer Vision and Pattern Recognition‌ (CVPR), 2026.*  
+   [PDF]() [Code]()
+
+38. **Bayesian Decomposition and Semantic Completion for Few-shot Semantic Segmentation**  
+   G. Shi, Y. Wu, W. Zhu, T. Wang, H. Zhang, B. Li, T. Lu  
+   *Proc. of IEEE Conference on Computer Vision and Pattern Recognition‌ (CVPR), 2026.*  
+   [PDF]() [Code]()
+
 37. **CorrMoE: Mixture of Experts with De-stylization Learning for Cross-Scene and Cross-Domain Correspondence Pruning**  
    P. Xia, T. Tang, W. Zhu, D. Zhao, J. Ke, K. Zhang, T. Lu, T. Wang  
    *Proc. of European Conference on Artificial Intelligence (ECAI), 2025.*  
@@ -198,17 +213,13 @@ redirect_from:
 ## Tech Reports
 
 
-3. **CorrMAE: Pre-training Correspondence Transformers with Masked Autoencoder**  
+2. **CorrMAE: Pre-training Correspondence Transformers with Masked Autoencoder**  
    T. Liao, X. Zhang, G. Xiao, M. Li, T. Wang, M. Ye
    *arXiv:2406.05773, 2024.*  
    [arXiv](https://arxiv.org/pdf/2406.05773?)
 
-2. **PromptRR: Diffusion Models as Prompt Generators for Single Image Reflection Removal**  
-   T. Wang, W. Lu, K. Zhang, W. Luo, TK. Kim, T. Lu, H. Li, MH. Yang  
+1. **PromptRR: Diffusion Models as Prompt Generators for Single Image Reflection Removal**  
+   T. Wang, W. Lu, K. Zhang, T. Lu, MH. Yang  
    *arXiv:2402.02374, 2024.*  
    [arXiv](https://arxiv.org/abs/2402.02374) [Project](https://github.com/TaoWangzj/PromptRR)
 
-1. **A Survey of Deep Face Restoration: Denoise, Super-Resolution, Deblur, Artifact Removal**  
-   T. Wang, K. Zhang, X. Chen, W. Luo, J. Deng, T. Lu, X. Cao, W. Liu, H. Li, S. Zafeiriou  
-   *arXiv:2211.02831, 2022.*  
-   [arXiv](https://arxiv.org/abs/2211.02831) [Project](https://github.com/TaoWangzj/Awesome-Face-Restoration)
