@@ -16,7 +16,7 @@ redirect_from:
    [PDF](https://arxiv.org/abs/2211.02831) [Project](https://github.com/TaoWangzj/Awesome-Face-Restoration)
 
 40. **RRFormer: A New Transformer-Based Method for Ultra High-Definition Reflection Removal**  
-   Z. Song, Z. Zhang, R. Li, K. Zhang, T. Wang, J. Lu 
+    Z. Song, Z. Zhang, R. Li, K. Zhang, T. Wang, J. Lu  
    *Information Fusion, 2026.*  
    [PDF]() [Code]()
 
