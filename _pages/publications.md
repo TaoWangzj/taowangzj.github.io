@@ -10,10 +10,15 @@ redirect_from:
 
 (* indicates corresponding author, + indicates equal contribution)
 
-40. **Deep Face Restoration: A Survey**  
+41. **Deep Face Restoration: A Survey**  
    T. Wang, K. Zhang, J. Deng, T. Lu, W. Liu, S. Zafeiriou  
    *ACM Computing Surveys, 2026.*  
    [PDF](https://arxiv.org/abs/2211.02831) [Project](https://github.com/TaoWangzj/Awesome-Face-Restoration)
+
+40. **RRFormer: A New Transformer-Based Method for Ultra High-Definition Reflection Removal**  
+   Z. Song, Z. Zhang, R. Li, K. Zhang, T. Wang, J. Lu 
+   *Information Fusion, 2026.*  
+   [PDF]() [Code]()
 
 39. **Evolutionary Multi-Agent Collaboration for Real-World Video Face Restoration**  
    B. Tang, T. Tang, M. Zhang, X. Yu, J. Chen, B. Li, K. Zhang  
