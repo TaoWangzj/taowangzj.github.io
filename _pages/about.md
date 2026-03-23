@@ -31,7 +31,8 @@ I am interested in several topics in computer vision and machine learning. Speci
 
 # 🔥 News
 - *2026.03*: 🎉 One paper was accepted by ACM Computing Surveys (face restoration survey).
-- *2026.02*: 🎉 Two papers were accepted by CVPR 2026 (Few-shot segmentation, Agent-based video face restoration).
+- *2026.03*: 🎉 One paper was accepted by Information Fusion (UHD reflection removal).
+- *2026.02*: 🎉 Two papers were accepted by CVPR 2026 (few-shot segmentation, agent-based video face restoration).
 - *2025.12*: 🎉 LLFormer V2 has been released, see the <a href="https://github.com/TaoWangzj/LLFormerV2">link</a>.
 - *2025.11*: 🎉 Our Deep IR survey repository is available, see the <a href="https://github.com/TaoWangzj/Awesome-Image-Restoration">link</a>.
 - *2025.09*: 🎉 Joining vivo.
