@@ -18,7 +18,7 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 
-Currently, I am a senior researcher in the Image Quality and Perception Algorithms Center of vivo, working on low-level vision and multimodal generation. Before that, I received the Ph.D. degree from the School of Computer Science, Nanjing University (NJU), 2025, under the supervision of Prof. [Tong lu](https://cs.nju.edu.cn/lutong/). From September 2024 to March 2025, I worked as an academic intern at VIVO (Shanghai). I have published over 40+ peer-reviewed papers in top-tier journals and conferences, like IJCV, TIP, CSUR, CVPR, ICCV, ECCV, NeurIPS, SIGGRAPH, AAAI, IJCAI, ACM MM, etc. I am a reviewer for TPAMI, TIP, CVPR, ICCV, ECCV, NeurIPS, SIGGRAPH, ICLR, AAAI, IJCAI, etc.
+Currently, I am a senior researcher in the Image Quality and Perception Algorithms Center of vivo, working on low-level vision and multimodal generation. Before that, I received the Ph.D. degree from the School of Computer Science, Nanjing University (NJU), 2025, under the supervision of Prof. [Tong lu](https://cs.nju.edu.cn/lutong/). From September 2024 to March 2025, I worked as an academic intern at VIVO (Shanghai). I have published over 40+ peer-reviewed papers in top-tier journals and conferences, like TPAMI, IJCV, TIP, CSUR, CVPR, ICCV, ECCV, NeurIPS, SIGGRAPH, AAAI, IJCAI, ACM MM, etc. I am a reviewer for TPAMI, TIP, CVPR, ICCV, ECCV, NeurIPS, SIGGRAPH, ICLR, AAAI, IJCAI, etc.
 
 
 
@@ -30,6 +30,7 @@ I am interested in several topics in computer vision and machine learning. Speci
 
 
 # 🔥 News
+- *2026.04*: 🎉 One paper was accepted by TPAMI (correspondence pruning).
 - *2026.03*: 🎉 One paper was accepted by ACM Computing Surveys (face restoration survey).
 - *2026.03*: 🎉 One paper was accepted by Information Fusion (UHD reflection removal).
 - *2026.02*: 🎉 Two papers were accepted by CVPR 2026 (few-shot segmentation, agent-based video face restoration).
