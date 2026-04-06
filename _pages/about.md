@@ -30,7 +30,7 @@ I am interested in several topics in computer vision and machine learning. Speci
 
 
 # 🔥 News
-- *2026.04*: 🎉 One paper was accepted by ACL 2026 (efficient T2I, oral).
+- *2026.04*: 🎉 One paper was accepted by ACL 2026 (efficient T2I).
 - *2026.04*: 🎉 One paper was accepted by TPAMI (correspondence pruning).
 - *2026.03*: 🎉 One paper was accepted by ACM Computing Surveys (face restoration survey).
 - *2026.03*: 🎉 One paper was accepted by Information Fusion (UHD reflection removal).
