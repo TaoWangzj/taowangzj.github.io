@@ -227,12 +227,6 @@ redirect_from:
 
 ## Tech Reports
 
-
-2. **CorrMAE: Pre-training Correspondence Transformers with Masked Autoencoder**  
-   T. Liao, X. Zhang, G. Xiao, M. Li, T. Wang, M. Ye
-   *arXiv:2406.05773, 2024.*  
-   [arXiv](https://arxiv.org/pdf/2406.05773?)
-
 1. **PromptRR: Diffusion Models as Prompt Generators for Single Image Reflection Removal**  
    T. Wang, W. Lu, K. Zhang, T. Lu, MH. Yang  
    *arXiv:2402.02374, 2024.*  
