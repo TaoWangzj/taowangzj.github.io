@@ -10,6 +10,16 @@ redirect_from:
 
 (* indicates corresponding author, + indicates equal contribution)
 
+43. **LADR: Locality-Aware Dynamic Rescue for Efficient Text-to-Image Generation with Diffusion Large Language Models**  
+   C. Wang, Y. Zhou, S. Chen, T. Wang, K. Zhang,
+   *Proc. of the 64th Annual Meeting of the Association for Computational Linguistics, 2026.*  
+   [PDF]() [Code]()
+
+42. **Scalable and Generalizable Correspondence Pruning via Geometry-Consistent Pre-training**  
+   T. Liao, X. Zhang, T. Wang, H. Ye, M. Li, G. Xiao, M. Ye,
+   *IEEE Transactions on Pattern Analysis and Machine Intelligence, 2026.*  
+   [PDF](https://arxiv.org/pdf/2406.05773) [Code](https://github.com/sugar-fly/GeneralPruner)
+
 41. **Deep Face Restoration: A Survey**  
    T. Wang, K. Zhang, J. Deng, T. Lu, W. Liu, S. Zafeiriou  
    *ACM Computing Surveys, 2026.*  
