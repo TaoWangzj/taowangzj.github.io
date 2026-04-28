@@ -31,7 +31,7 @@ redirect_from:
    [PDF]() [Code]()
 
 39. **Evolutionary Multi-Agent Collaboration for Real-World Video Face Restoration**  
-   B. Tang, T. Tang, M. Zhang, X. Yu, J. Chen, B. Li, K. Zhang  
+   B. Tang, T. Wang, M. Zhang, X. Yu, J. Chen, B. Li, K. Zhang  
    *Proc. of IEEE Conference on Computer Vision and Pattern Recognition‌ (CVPR), 2026.*  
    [PDF]() [Code]()
 
