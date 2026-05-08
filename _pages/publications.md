@@ -10,10 +10,15 @@ redirect_from:
 
 (* indicates corresponding author, + indicates equal contribution)
 
+44. **EchoSR: Efficient Context Harnessing for Lightweight  Image Super-Resolution**  
+    H. Zhao, B. Wang, S. Zhao, T. Wang, K. Zhang, W. Lu  
+   *Information Fusion, 2026.*  
+   [PDF]() [Code]()
+
 43. **LADR: Locality-Aware Dynamic Rescue for Efficient Text-to-Image Generation with Diffusion Large Language Models**  
     C. Wang, Y. Zhou, S. Chen, T. Wang, K. Zhang  
    *Proc. of the 64th Annual Meeting of the Association for Computational Linguistics, 2026.*  
-   [PDF]() [Code]()
+   [PDF](https://arxiv.org/pdf/2603.13450) [Code]()
 
 42. **Scalable and Generalizable Correspondence Pruning via Geometry-Consistent Pre-training**  
     T. Liao, X. Zhang, T. Wang, H. Ye, M. Li, G. Xiao, M. Ye  
@@ -28,7 +33,7 @@ redirect_from:
 40. **RRFormer: A New Transformer-Based Method for Ultra High-Definition Reflection Removal**  
     Z. Song, Z. Zhang, R. Li, K. Zhang, T. Wang, J. Lu  
    *Information Fusion, 2026.*  
-   [PDF]() [Code]()
+   [PDF](https://www.sciencedirect.com/science/article/abs/pii/S1566253526001715) [Code]()
 
 39. **Evolutionary Multi-Agent Collaboration for Real-World Video Face Restoration**  
    B. Tang, T. Wang, M. Zhang, X. Yu, J. Chen, B. Li, K. Zhang  
