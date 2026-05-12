@@ -13,7 +13,7 @@ redirect_from:
 44. **EchoSR: Efficient Context Harnessing for Lightweight  Image Super-Resolution**  
     H. Zhao, B. Wang, S. Zhao, T. Wang, K. Zhang, W. Lu  
    *Information Fusion, 2026.*  
-   [PDF]() [Code]()
+   [PDF](https://www.sciencedirect.com/science/article/abs/pii/S1566253526003507) [Code](https://github.com/funnyWang-Echoes/EchoSR)
 
 43. **LADR: Locality-Aware Dynamic Rescue for Efficient Text-to-Image Generation with Diffusion Large Language Models**  
     C. Wang, Y. Zhou, S. Chen, T. Wang, K. Zhang  
