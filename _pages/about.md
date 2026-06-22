@@ -70,6 +70,21 @@ I am interested in several topics in computer vision and machine learning. Speci
 <span class="anchor" id="projects"></span>
 # Projects 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> </div><img src='images/GLASNet.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Fair and Faithful: A Diffusion-Enhanced Dataset and Hybrid State-Space Mamba for Face Super-Resolution]()
+
+**T. Wang**, P. Xia, B. Tang, J. Chen, K. Zhang, B. Li
+
+Proc. of European Conference on Computer Vision (ECCV), 2026.
+
+[**PDF**]() [**Code**]()
+- A new FSR benchmark and a Mamba-based backbone for FSR.
+</div>
+</div>
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> </div><img src='images/MOERL.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -79,7 +94,7 @@ I am interested in several topics in computer vision and machine learning. Speci
 
 Proc. of International Conference on Computer Vision (ICCV), 2025.
 
-[**PDF**]() [**Code**]()
+[**PDF**](https://openaccess.thecvf.com/content/ICCV2025/papers/Wang_MOERL_When_Mixture-of-Experts_Meet_Reinforcement_Learning_for_Adverse_Weather_Image_ICCV_2025_paper.pdf) [**Code**]()
 - A general backbone with RL for image restoration in adverse weather conditions.
 </div>
 </div>
