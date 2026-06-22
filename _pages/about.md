@@ -70,6 +70,20 @@ I am interested in several topics in computer vision and machine learning. Speci
 <span class="anchor" id="projects"></span>
 # Projects 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> </div><img src='images/liter_milestones.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Deep Face Restoration: A Survey]()
+
+**T. Wang**, K. Zhang, J. Deng, T. Lu, W. Liu, S. Zafeiriou
+
+ACM Computing Surveys (CSUR), 2026. 
+
+[**PDF**](https://arxiv.org/abs/2211.02831) [**Project**](https://github.com/TaoWangzj/Awesome-Face-Restoration)
+- A survey of deep face restoration.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> </div><img src='images/GLASNet.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -128,7 +142,7 @@ Proc. of the Association for the Advancement of Artificial Intelligence (AAAI), 
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> </div><img src='images/LLDiffusion.jpg' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> </div><img src='images/LLDiffusion.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LLDiffusion: Learning Degradation Representations in Diffusion Models for Low-Light Image Enhancement](https://www.sciencedirect.com/science/article/abs/pii/S0031320325002882)
@@ -140,9 +154,9 @@ Pattern Recognition (PR), 2025.
 [**PDF**](https://www.sciencedirect.com/science/article/abs/pii/S0031320325002882) [**Code**](https://github.com/TaoWangzj/LLDiffusion) 
 - Image enhancement with diffusion model and degradation learning.
 </div>
-</div>
+</div> -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge"> </div><img src='images/HCD.jpg' alt="sym" width="100%"></div></div>
+<!-- <div class='paper-box'><div class='paper-box-image'><div><div class="badge"> </div><img src='images/HCD.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Restoring Vision in Hazy Weather with Hierarchical Contrastive Learning](https://www.sciencedirect.com/science/article/pii/S0031320323006544)
@@ -154,7 +168,7 @@ Pattern Recognition (PR), 2023.
 [**PDF**](https://www.sciencedirect.com/science/article/pii/S0031320323006544) 
 - A framework using contrastive learning to produce visually pleasing images.
 </div>
-</div>
+</div> -->
 
 
 <span class="anchor" id="services"></span>
