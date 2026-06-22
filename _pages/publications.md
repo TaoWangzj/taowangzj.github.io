@@ -11,14 +11,14 @@ redirect_from:
 (* indicates corresponding author, + indicates equal contribution)
 
 46. **Fair and Faithful: A Diffusion-Enhanced Dataset and Hybrid State-Space Mamba for Face Super-Resolution**  
-    T. Wang, P. Xia, B. Tang, J. Chen, K. Zhang, B. Li 
+    T. Wang, P. Xia, B. Tang, J. Chen, K. Zhang, B. Li  
    *Proc. of the 19th European Conference on Computer Vision (ECCV), 2026.*  
    [PDF]() [Code]()
 
 45. **UHDRes: Ultra-High-Definition Image Restoration via Dual-domain Decoupled Spectral Modulation**  
-    S. Zhao, W. Lu, B. Wang, T. Wang, K. Zhang, H. Zhao 
+    S. Zhao, W. Lu, B. Wang, T. Wang, K. Zhang, H. Zhao  
    *IEEE Trans. on Circuits and Systems for Video Technology (TCSVT), 2026.*  
-   [PDF](https://arxiv.org/pdf/2511.05009) [Code](https://github.com/Zhao0100/UHDRes)
+   [PDF](https://www.sciencedirect.com/science/article/abs/pii/S1566253526003507) [Code](https://github.com/funnyWang-Echoes/EchoSR)
 
 44. **EchoSR: Efficient Context Harnessing for Lightweight  Image Super-Resolution**  
     H. Zhao, B. Wang, S. Zhao, T. Wang, K. Zhang, W. Lu  
