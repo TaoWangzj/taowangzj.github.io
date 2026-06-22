@@ -31,6 +31,7 @@ I am interested in several topics in computer vision and machine learning. Speci
 
 # 🔥 News
 - *2026.06*: 🎉 One paper was accepted by ECCV 2026 (face super-resolution).
+- *2026.06*: 🎉 One paper was accepted by TCSVT (UHD image restoration).
 - *2026.05*: 🎉 One paper was accepted by Information Fusion (image super-resolution).
 - *2026.04*: 🎉 One paper was accepted by ACL 2026 (efficient T2I).
 - *2026.04*: 🎉 One paper was accepted by TPAMI (correspondence pruning).
