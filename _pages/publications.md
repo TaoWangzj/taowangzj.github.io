@@ -8,7 +8,19 @@ redirect_from:
 
 # Tao Wang - List of Publications
 
+
+
 (* indicates corresponding author, + indicates equal contribution)
+
+48. **Deep Image Restoration in Adverse Weather: A Survey**  
+    Z. Song, R. Li, Z. Zhang, T. Wang, J. Lu, X. Yu, K. Zhang  
+   *Neural Networks, 2026.*  
+   [PDF]() [Code]()
+
+47. **UHDRes: ultra-high-definition image restoration via dual-domain decoupled spectral modulation**  
+    S. Zhao, W. Lu, B. Wang, T. Wang, K. Zhang, H. Zhao  
+   *IEEE Trans. on Circuits and Systems for Video Technology (TCSVT), 2026.*  
+   [PDF]() [Code]()
 
 46. **Fair and Faithful: A Diffusion-Enhanced Dataset and Hybrid State-Space Mamba for Face Super-Resolution**  
     T. Wang, P. Xia, B. Tang, J. Chen, K. Zhang, B. Li  
