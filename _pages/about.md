@@ -30,6 +30,7 @@ I am interested in several topics in computer vision and machine learning. Speci
 
 
 # 🔥 News
+- *2026.09*: 🎉 One paper was accepted by NeurIPS 2026 (world model for burst flicker removal).
 - *2026.08*: 🎉 One paper was accepted by NN (adverse weather image restoration survey).
 - *2026.07*: 🎉 One paper was accepted by TCSVT (document image restoration).
 - *2026.06*: 🎉 One paper was accepted by ECCV 2026 (face super-resolution).
