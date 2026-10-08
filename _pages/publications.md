@@ -12,6 +12,11 @@ redirect_from:
 
 (* indicates corresponding author, + indicates equal contribution)
 
+49. **World-Model-Inspired Flicker State Modeling for Burst Flicker Removal**  
+    B. Tang, T. Wang, X. Yu, W. Luo, K. Zhang, B. Li, M. Zhang  
+    *Proc. of Neural Information Processing Systems (NeurIPS), 2026.*  
+    [PDF]()
+    
 48. **Deep Image Restoration in Adverse Weather: A Survey**  
     Z. Song, R. Li, Z. Zhang, T. Wang, J. Lu, X. Yu, K. Zhang  
    *Neural Networks, 2026.*  
